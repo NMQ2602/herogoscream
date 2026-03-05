@@ -1,0 +1,69 @@
+﻿id	CN	EN	CS
+1001	level	level	level
+1002	GAME OVER	GAME OVER	GameOver
+1003	COMPLETE!	COMPLETE!	COMPLETE!
+1004	发出<color=#ff0000><size=60>轻声</size></color>移动	Use <color=#ff0000><size=60>SOFT VOICE</size></color> to walk	發出<color=#ff0000><size=60>輕聲</size></color>移動
+1005	大声<color=#ff0000><size=60>高喊</size></color>跳跃	Use <color=#ff0000><size=60>LOUD VOICE</size></color> to jump	大聲<color=#ff0000><size=60>高喊</size></color>跳躍
+1006	声音<color=#ff0000><size=60>越大</size></color>，跳的<color=#ff0000><size=60>越高</size></color>	Speak <color=#ff0000><size=60>LOUDER</size></color>, Jump <color=#ff0000><size=60>Higher</size></color>	
+1007	视频教程	Video tutorial	視頻教程
+1008	继续	CONTINUE	繼續
+1009	评分	RATE	評分
+1010	分享	SHARE	分享
+1011	天啊！我用震天撼地的吼声在游戏 #英雄必须吼 里面得了{0}分 ！你能吼得比我还猛吗？ https://itunes.apple.com/app/scream-hero/id1212039074	OMG! I made {0} points on #ScreamGoHero ! Can you be a better screamer than me #ScreamGo? https://itunes.apple.com/app/scream-hero/id1212039074	天啊！我用震天撼地的吼聲在遊戲 #英雄必須吼 裏面得了{0}分 ！妳能吼得比我還猛嗎？ https://itunes.apple.com/app/scream-hero/id1212039074
+1012	<size=140>不要停!</size>	<size=128>Nonstop</size>	<size=140>不要停!</size>
+1013	<size=140>八分音符酱</size>	<size=128>Quaver</size>	<size=140>八分音符醬</size>
+1014	天啊！我用震天撼地的吼声在游戏 #英雄必须吼 里面得了{0}分 ！你能吼得比我还猛吗？ https://play.google.com/store/apps/details?id=com.ketchapp.screamhero	OMG! I made {0} points on #ScreamGOHero ! Can you be a better screamer than me #ScreamGo? https://play.google.com/store/apps/details?id=com.ketchapp.screamhero	天啊！我用震天撼地的吼聲在遊戲 #英雄必須吼 裏面得了{0}分 ！妳能吼得比我還猛嗎？ https://play.google.com/store/apps/details?id=com.ketchapp.screamhero
+1015	灵敏度调整	Adjust Sensitivity	靈敏度調整
+1016	灵敏	sensitive	靈敏
+1017	不灵敏	insensitive	不靈敏
+1018	<color=#ff0000><size=60>滑动</size></color>滚动条来	<color=#ff0000><size=60>Slide</size></color> the scroll bar to adjust the	<color=#ff0000><size=60>滑動</size></color>滾動條來
+1019	<color=#ff0000><size=60>调整</size></color>声音的灵敏度	<color=#ff0000><size=60>sensitivity</size></color> of the voice	<color=#ff0000><size=60>調整</size></color>聲音的靈敏度
+1020	声音不要停下	DON'T STOP VOICE	聲音不要停下
+1021	速度	SPEED	速度
+1022	得分: {0}	SCORE: {0}	得分: {0}
+1023	得分	SCORE	得分
+1024	最高记录	BEST	最高記錄
+1025	新记录	NEW	新記錄
+1026	关卡模式	SELECT LEVEL	關卡模式
+1027	无尽模式	ENDLESS	無盡模式
+1028	跨栏模式	HURDLES	跨欄模式
+1029	马拉松模式	MARATHON	馬拉松模式
+1030	天啊！我用震天撼地的吼声在游戏 #英雄必须吼 里面得了{0}分 ！你能吼得比我还猛吗？ https://itunes.apple.com/app/scream-hero/id1212039074	OMG! I made {0} points on #ScreamGoHero ! Can you be a better screamer than me #eighthnote? https://itunes.apple.com/app/scream-hero/id1212039074	天啊！我用震天撼地的吼聲在遊戲 #英雄必須吼 裏面得了{0}分 ！妳能吼得比我還猛嗎？ https://itunes.apple.com/app/scream-hero/id1212039074
+1031	天啊！我用震天撼地的吼声在游戏 #英雄必须吼 里面得了{0}分 ！你能吼得比我还猛吗？ https://itunes.apple.com/app/scream-hero/id1212039074	OMG! I made {0} points on #ScreamGoHero ! Can you be a better screamer than me #yasuhati? https://itunes.apple.com/app/scream-hero/id1212039074	天啊！我用震天撼地的吼聲在遊戲 #英雄必須吼 裏面得了{0}分 ！妳能吼得比我還猛嗎？ https://itunes.apple.com/app/scream-hero/id1212039074
+1032	天啊！我用震天撼地的吼声在游戏 #英雄必须吼 里面得了{0}分 ！你能吼得比我还猛吗？ https://play.google.com/store/apps/details?id=com.ketchapp.screamhero	OMG! I made {0} points on #ScreamGOHero ! Can you be a better screamer than me #eighthnote? https://play.google.com/store/apps/details?id=com.ketchapp.screamhero	天啊！我用震天撼地的吼聲在遊戲 #英雄必須吼 裏面得了{0}分 ！妳能吼得比我還猛嗎？ https://play.google.com/store/apps/details?id=com.ketchapp.screamhero
+1033	天啊！我用震天撼地的吼声在游戏 #英雄必须吼 里面得了{0}分 ！你能吼得比我还猛吗？ https://play.google.com/store/apps/details?id=com.ketchapp.screamhero	OMG! I made {0} points on #ScreamGOHero ! Can you be a better screamer than me #yasuhati? https://play.google.com/store/apps/details?id=com.ketchapp.screamhero	天啊！我用震天撼地的吼聲在遊戲 #英雄必須吼 裏面得了{0}分 ！妳能吼得比我還猛嗎？ https://play.google.com/store/apps/details?id=com.ketchapp.screamhero
+1034	复活？	Revive?	復活？
+1035	好	YES	好
+1036	不，谢谢	NO,THANKS	不，謝謝
+1037	视频还没准备好，请稍加等待再做尝试。	The video is not ready, please wait a moment.	視頻還沒準備好，請稍加等待再做嘗試。
+1038	重玩	REPLAY	重玩
+1039	无尽模式获得至少{0}分	Get {0} or more score in Endless Mode	无尽模式获得至少{0}分
+1040	无尽模式获得至少{0}个樱桃	Get {0} or more Cherries in Endless Mode	无尽模式获得至少{0}个樱桃
+1041	无尽模式获得{0}~{1}分	Get {0} to {1} score in Endless Mode	无尽模式获得{0}~{1}分
+1042	无尽模式飞跃至少{0}个台阶	Jump over {0} or more steps in Endless Mode	无尽模式飞跃至少{0}个台阶
+1043	无尽模式累计获得{0}个樱桃	Get {0} Cherries in total in Endless Mode	无尽模式累计获得{0}个樱桃
+1044	无尽模式累计飞跃{0}秒	Jump more than over {0}s in total in Endless Mode	无尽模式累计飞跃{0}秒
+1045	无尽模式累计完成{0}次飞跃	Jump over {0} Times in total in Endless Mode	无尽模式累计完成{0}次飞跃
+1046	1	1	1
+1047	无尽模式连续{1}次获得至少{0}个樱桃	Get {0} or more cherries {1} times in succession  in Endless Mode	无尽模式连续两次获得至少{0}个樱桃
+1048	无尽模式一次性飞跃{0}个台阶	Jump over {0} steps in one jump in Endless Mode	无尽模式一次性飞跃{0}个台阶
+1049	无尽模式飞跃至少{0}秒	Jump over more than {0}s in Endless Mode	无尽模式飞跃至少{0}秒
+1050	无尽模式通过{0}个台阶并落在他们每一个上	Pass {0} steps by landing on them one by one	无尽模式通过{0}个台阶并落在他们每一个上
+1051	无尽模式完成{0}次飞跃	Jump over {0} Times in Endless Mode	无尽模式完成{0}次飞跃
+1052	无尽模式连续{2}次获得{0}~{1}分	Get {0} to {1} score {2} times in succession in Endless Mode	无尽模式连续两次获得{0}~{1}分
+1053	任务完成	MISSION CLEAR	任务完成
+1054	任务	MISSION	任务
+1055	<color=black>任务 {0}/</color><color=#b4b3b3>{1}</color>	<color=black>MISSION {0}/</color><color=#b4b3b3>{1}</color>	<color=black>任务 {0}/</color><color=#b4b3b3>{1}</color>
+1056	获得分数	More Score	获得分数
+1057	获得樱桃	More Cherries	获得樱桃
+1058	特定分数	Some Score	特定分数
+1059	飞跃	Jump Over	飞跃
+1060	收集樱桃	Collect Cherries	收集樱桃
+1061	飞行	Fly	飞行
+1062	跳跳跳！	Jump! Jump!	跳跳跳！
+1063	获得樱桃 2	More Cherries 2	获得樱桃 2
+1064	跳的更远	Jump Far Away	跳的更远
+1065	飞行2	Flay 2	飞行2
+1066	一个接一个	One By One	一个接一个
+1067	飞跃2	Jump Over 2	飞跃2
+1068	特定分数2	Some Score 2	特定分数2

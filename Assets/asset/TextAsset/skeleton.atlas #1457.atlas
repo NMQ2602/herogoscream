@@ -1,0 +1,146 @@
+
+skeleton.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+close_eyesL
+  rotate: true
+  xy: 434, 18
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+close_eyesR
+  rotate: true
+  xy: 504, 2
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+duzi
+  rotate: false
+  xy: 298, 21
+  size: 95, 105
+  orig: 95, 105
+  offset: 0, 0
+  index: -1
+earL
+  rotate: true
+  xy: 596, 72
+  size: 54, 102
+  orig: 54, 102
+  offset: 0, 0
+  index: -1
+earR
+  rotate: true
+  xy: 700, 89
+  size: 37, 94
+  orig: 37, 94
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 471, 14
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+eyeR
+  rotate: true
+  xy: 533, 2
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+eyeR2
+  rotate: true
+  xy: 562, 2
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+eyeR3
+  rotate: false
+  xy: 570, 37
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+eyel
+  rotate: false
+  xy: 504, 29
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+eyel3
+  rotate: false
+  xy: 537, 29
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+handL
+  rotate: true
+  xy: 494, 66
+  size: 60, 100
+  orig: 60, 100
+  offset: 0, 0
+  index: -1
+handR
+  rotate: true
+  xy: 796, 87
+  size: 39, 81
+  orig: 39, 81
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 14
+  size: 112, 146
+  orig: 112, 146
+  offset: 0, 0
+  index: -1
+head1
+  rotate: true
+  xy: 150, 14
+  size: 112, 146
+  orig: 112, 146
+  offset: 0, 0
+  index: -1
+legl
+  rotate: true
+  xy: 879, 89
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+legl_1
+  rotate: true
+  xy: 927, 89
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+legr
+  rotate: false
+  xy: 975, 84
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 395, 51
+  size: 97, 75
+  orig: 97, 75
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: true
+  xy: 395, 20
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+Character11.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: false
+  xy: 292, 361
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Eye_Jump
+  rotate: false
+  xy: 2, 67
+  size: 74, 64
+  orig: 74, 64
+  offset: 0, 0
+  index: -1
+Eye_death
+  rotate: false
+  xy: 2, 2
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+LeftFoot
+  rotate: false
+  xy: 358, 357
+  size: 34, 68
+  orig: 34, 68
+  offset: 0, 0
+  index: -1
+RightFoot
+  rotate: false
+  xy: 358, 357
+  size: 34, 68
+  orig: 34, 68
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 133
+  size: 288, 292
+  orig: 288, 292
+  offset: 0, 0
+  index: -1
+lefthand
+  rotate: false
+  xy: 78, 73
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+righthand
+  rotate: false
+  xy: 292, 305
+  size: 64, 54
+  orig: 64, 54
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+Character1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: false
+  xy: 48, 5
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Eye_Jump
+  rotate: true
+  xy: 2, 2
+  size: 51, 44
+  orig: 51, 44
+  offset: 0, 0
+  index: -1
+Eye_death
+  rotate: false
+  xy: 238, 108
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+HeadBand1
+  rotate: false
+  xy: 161, 213
+  size: 161, 41
+  orig: 161, 41
+  offset: 0, 0
+  index: -1
+HeadBand2
+  rotate: false
+  xy: 161, 2
+  size: 67, 55
+  orig: 67, 55
+  offset: 0, 0
+  index: -1
+HeadBand3
+  rotate: false
+  xy: 238, 157
+  size: 74, 54
+  orig: 74, 54
+  offset: 0, 0
+  index: -1
+LeftFoot
+  rotate: true
+  xy: 324, 213
+  size: 41, 87
+  orig: 41, 87
+  offset: 0, 0
+  index: -1
+RightFoot
+  rotate: true
+  xy: 324, 213
+  size: 41, 87
+  orig: 41, 87
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 55
+  size: 157, 199
+  orig: 157, 199
+  offset: 0, 0
+  index: -1
+lefthand
+  rotate: false
+  xy: 161, 136
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+righthand
+  rotate: false
+  xy: 161, 59
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1

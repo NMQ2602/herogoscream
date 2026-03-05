@@ -1,0 +1,62 @@
+
+Character17.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: true
+  xy: 208, 174
+  size: 16, 45
+  orig: 16, 45
+  offset: 0, 0
+  index: -1
+Eye_Jump
+  rotate: true
+  xy: 135, 39
+  size: 51, 44
+  orig: 51, 44
+  offset: 0, 0
+  index: -1
+Eye_death
+  rotate: false
+  xy: 208, 192
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+LeftFoot
+  rotate: false
+  xy: 185, 111
+  size: 20, 62
+  orig: 20, 62
+  offset: 0, 0
+  index: -1
+RightFoot
+  rotate: false
+  xy: 185, 111
+  size: 20, 62
+  orig: 20, 62
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 131, 237
+  orig: 131, 237
+  offset: 0, 0
+  index: -1
+lefthand
+  rotate: false
+  xy: 135, 175
+  size: 71, 64
+  orig: 71, 64
+  offset: 0, 0
+  index: -1
+righthand
+  rotate: true
+  xy: 135, 92
+  size: 81, 48
+  orig: 81, 48
+  offset: 0, 0
+  index: -1

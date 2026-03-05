@@ -1,0 +1,76 @@
+
+Character19.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: false
+  xy: 70, 144
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+Eye_Jump
+  rotate: false
+  xy: 2, 61
+  size: 64, 59
+  orig: 64, 59
+  offset: 0, 0
+  index: -1
+Eye_death
+  rotate: false
+  xy: 2, 2
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1
+LeftEar
+  rotate: false
+  xy: 267, 392
+  size: 67, 76
+  orig: 67, 76
+  offset: 0, 0
+  index: -1
+LeftFoot
+  rotate: true
+  xy: 131, 168
+  size: 35, 68
+  orig: 35, 68
+  offset: 0, 0
+  index: -1
+RightEar
+  rotate: false
+  xy: 2, 122
+  size: 66, 81
+  orig: 66, 81
+  offset: 0, 0
+  index: -1
+RightFoot
+  rotate: false
+  xy: 267, 262
+  size: 35, 68
+  orig: 35, 68
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 205
+  size: 263, 263
+  orig: 263, 263
+  offset: 0, 0
+  index: -1
+lefthand
+  rotate: false
+  xy: 267, 332
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+righthand
+  rotate: false
+  xy: 336, 415
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1

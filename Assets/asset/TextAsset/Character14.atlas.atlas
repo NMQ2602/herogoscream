@@ -1,0 +1,76 @@
+
+Character14.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: false
+  xy: 236, 183
+  size: 42, 28
+  orig: 42, 28
+  offset: 0, 0
+  index: -1
+Eye_Jump
+  rotate: true
+  xy: 2, 2
+  size: 51, 44
+  orig: 51, 44
+  offset: 0, 0
+  index: -1
+Eye_death
+  rotate: true
+  xy: 161, 47
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+HeadBand2
+  rotate: true
+  xy: 391, 218
+  size: 36, 68
+  orig: 36, 68
+  offset: 0, 0
+  index: -1
+HeadBand3
+  rotate: true
+  xy: 325, 213
+  size: 41, 64
+  orig: 41, 64
+  offset: 0, 0
+  index: -1
+LeftFoot
+  rotate: true
+  xy: 236, 213
+  size: 41, 87
+  orig: 41, 87
+  offset: 0, 0
+  index: -1
+RightFoot
+  rotate: true
+  xy: 48, 12
+  size: 41, 87
+  orig: 41, 87
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 55
+  size: 157, 199
+  orig: 157, 199
+  offset: 0, 0
+  index: -1
+lefthand
+  rotate: false
+  xy: 161, 180
+  size: 73, 74
+  orig: 73, 74
+  offset: 0, 0
+  index: -1
+righthand
+  rotate: true
+  xy: 161, 95
+  size: 83, 64
+  orig: 83, 64
+  offset: 0, 0
+  index: -1

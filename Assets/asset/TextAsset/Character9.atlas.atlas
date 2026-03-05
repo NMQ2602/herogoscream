@@ -1,0 +1,62 @@
+
+Character9.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: true
+  xy: 185, 58
+  size: 54, 35
+  orig: 54, 35
+  offset: 0, 0
+  index: -1
+Eye_Jump
+  rotate: false
+  xy: 252, 200
+  size: 51, 44
+  orig: 51, 44
+  offset: 0, 0
+  index: -1
+Eye_death
+  rotate: true
+  xy: 305, 198
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+LeftFoot
+  rotate: true
+  xy: 354, 218
+  size: 26, 57
+  orig: 26, 57
+  offset: 0, 0
+  index: -1
+RightFoot
+  rotate: true
+  xy: 413, 218
+  size: 26, 57
+  orig: 26, 57
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 181, 242
+  orig: 181, 242
+  offset: 0, 0
+  index: -1
+lefthand
+  rotate: true
+  xy: 185, 114
+  size: 72, 40
+  orig: 72, 40
+  offset: 0, 0
+  index: -1
+righthand
+  rotate: false
+  xy: 185, 188
+  size: 65, 56
+  orig: 65, 56
+  offset: 0, 0
+  index: -1
