@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37891072155",
+    "project_id": "screamgohero-17537",
+    "storage_bucket": "screamgohero-17537.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37891072155:android:2fe8de4a7d0bfc72ed263e",
+        "android_client_info": {
+          "package_name": "com.dupteam.screamgohero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC0RqNlR6WXWMoYfzAIT6Zr1QlgtIhfOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

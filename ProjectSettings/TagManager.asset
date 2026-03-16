@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Ground
+  - Die
+  - Finish
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bg
+    uniqueID: 678557033
+    locked: 0
+  - name: Ground
+    uniqueID: 663569239
+    locked: 0
+  - name: Player
+    uniqueID: 3841926561
+    locked: 0
+  - name: Monster
+    uniqueID: 3812779887
+    locked: 0
+  - name: Trap
+    uniqueID: 820529307
     locked: 0

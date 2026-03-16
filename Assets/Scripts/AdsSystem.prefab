@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4421850469995633207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4210651358115789058}
+  - component: {fileID: 4035573435364303869}
+  - component: {fileID: 3756037195527338370}
+  - component: {fileID: 7195128256859031306}
+  m_Layer: 0
+  m_Name: AdsSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4210651358115789058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421850469995633207}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.517803, y: 1.0346239, z: -0.019251935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4035573435364303869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421850469995633207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f75584d9b713a424e9bf6fac51b3cbf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  google: {fileID: 3756037195527338370}
+  unity: {fileID: 7195128256859031306}
+--- !u!114 &3756037195527338370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421850469995633207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c15ad5566e3ef14e8423810b7bde4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appOpenId: ca-app-pub-3940256099942544/3419835294
+  bannerId: ca-app-pub-3940256099942544/6300978111
+  interId: ca-app-pub-3940256099942544/1033173712
+  rewardedId: ca-app-pub-3940256099942544/5224354917
+  bannerPosition: 1
+  mrecId: ca-app-pub-3940256099942544/8691691433
+  mrecBg: {fileID: 0}
+--- !u!114 &7195128256859031306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421850469995633207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc586573d13ca8343bfafe1598bcd8cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appOpenId: AppOpen_Android
+  bannerId: Banner_Android
+  interId: Interstitial_Android
+  rewardedId: Rewarded_Android
