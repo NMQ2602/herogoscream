@@ -56,3 +56,6 @@ TagManager:
   - name: Trap
     uniqueID: 820529307
     locked: 0
+  - name: Coin
+    uniqueID: 1144912001
+    locked: 0
