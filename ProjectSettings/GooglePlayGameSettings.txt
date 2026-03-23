@@ -1,0 +1,9 @@
+lastUpgrade=20100
+proj.pluginVersion=2.1.0
+proj.AppId=37891072155
+and.BundleId=com.dupteam.screamgohero
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--Google+Play+game+services+IDs.+Save+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--app_id--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e37891072155%3c%2fstring%3e%0d%0a++%3c%21--package_name--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.dupteam.screamgohero%3c%2fstring%3e%0d%0a++%3c%21--achievement+First+Play--%3e%0d%0a++%3cstring+name%3d%22achievement_first_play%22+translatable%3d%22false%22%3eCgkIm8Hvk40BEAIQAA%3c%2fstring%3e%0d%0a++%3c%21--achievement+Scream+10--%3e%0d%0a++%3cstring+name%3d%22achievement_scream_10%22+translatable%3d%22false%22%3eCgkIm8Hvk40BEAIQAQ%3c%2fstring%3e%0d%0a++%3c%21--achievement+5+skin--%3e%0d%0a++%3cstring+name%3d%22achievement_5_skin%22+translatable%3d%22false%22%3eCgkIm8Hvk40BEAIQAg%3c%2fstring%3e%0d%0a++%3c%21--achievement+10+skin--%3e%0d%0a++%3cstring+name%3d%22achievement_10_skin%22+translatable%3d%22false%22%3eCgkIm8Hvk40BEAIQAw%3c%2fstring%3e%0d%0a++%3c%21--achievement+15+skin--%3e%0d%0a++%3cstring+name%3d%22achievement_15_skin%22+translatable%3d%22false%22%3eCgkIm8Hvk40BEAIQBA%3c%2fstring%3e%0d%0a++%3c%21--achievement+20+skin--%3e%0d%0a++%3cstring+name%3d%22achievement_20_skin%22+translatable%3d%22false%22%3eCgkIm8Hvk40BEAIQBQ%3c%2fstring%3e%0d%0a++%3c%21--leaderboard+Achievements--%3e%0d%0a++%3cstring+name%3d%22leaderboard_achievements%22+translatable%3d%22false%22%3eCgkIm8Hvk40BEAIQBw%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=37891072155-cf6u3rv38pa3lcagm6oe5m55pjiurr3g.apps.googleusercontent.com
+android.SetupDone=true

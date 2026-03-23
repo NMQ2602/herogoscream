@@ -115,6 +115,8 @@ public class MicPlayerController : MonoBehaviour
         float jumpPower = jumpForce + loudness * 3f;
         jumpPower = Mathf.Clamp(jumpPower, jumpForce, jumpForce * 2.5f);
 
+        MissionListManager.instance.AddJump(1);
+
         rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         canJump = false;
     }

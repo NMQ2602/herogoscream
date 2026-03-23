@@ -7107,10 +7107,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 420f41066d246e24394e88792eedd225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  display: {fileID: 0}
-  buttonImage: {fileID: 0}
-  iconOff: {fileID: 0}
-  iconOn: {fileID: 0}
+  display: {fileID: 949248375}
+  buttonImage: {fileID: 713393215}
+  iconOff: {fileID: 21300000, guid: 755a42f28ee89de40be286c2a1915ac1, type: 3}
+  iconOn: {fileID: 21300000, guid: e112fb2354651f940a1cc89210daa7a0, type: 3}
 --- !u!1 &1391401327
 GameObject:
   m_ObjectHideFlags: 0
