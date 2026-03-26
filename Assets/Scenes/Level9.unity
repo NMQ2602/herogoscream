@@ -3202,6 +3202,7 @@ GameObject:
   - component: {fileID: 265325379}
   - component: {fileID: 265325378}
   - component: {fileID: 265325377}
+  - component: {fileID: 265325380}
   m_Layer: 5
   m_Name: Rate
   m_TagString: Untagged
@@ -3286,6 +3287,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 265325380}
+        m_TargetAssemblyTypeName: OpenLinkButton, Assembly-CSharp
+        m_MethodName: OpenLink
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &265325378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3324,6 +3337,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265325375}
   m_CullTransparentMesh: 1
+--- !u!114 &265325380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265325375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3c31a36fa87459a6248cce44fb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://play.google.com/store/apps/details?id=com.dupteam.screamgohero&hl=en-US&ah=jeEYNkMg1CM65AFka21BFFeHEvw
 --- !u!4 &289835612 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8259043465185516232, guid: 3dd80ab4396672a4d92633459204e2e8, type: 3}
@@ -6943,6 +6969,7 @@ GameObject:
   - component: {fileID: 554930353}
   - component: {fileID: 554930352}
   - component: {fileID: 554930351}
+  - component: {fileID: 554930354}
   m_Layer: 5
   m_Name: Rate
   m_TagString: Untagged
@@ -7027,6 +7054,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 554930354}
+        m_TargetAssemblyTypeName: OpenLinkButton, Assembly-CSharp
+        m_MethodName: OpenLink
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &554930352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7065,6 +7104,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554930349}
   m_CullTransparentMesh: 1
+--- !u!114 &554930354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554930349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3c31a36fa87459a6248cce44fb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://play.google.com/store/apps/details?id=com.dupteam.screamgohero&hl=en-US&ah=jeEYNkMg1CM65AFka21BFFeHEvw
 --- !u!1 &573082692
 GameObject:
   m_ObjectHideFlags: 0
@@ -13295,6 +13347,7 @@ GameObject:
   - component: {fileID: 1160666989}
   - component: {fileID: 1160666988}
   - component: {fileID: 1160666987}
+  - component: {fileID: 1160666990}
   m_Layer: 5
   m_Name: Share
   m_TagString: Untagged
@@ -13379,6 +13432,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1160666990}
+        m_TargetAssemblyTypeName: OpenLinkButton, Assembly-CSharp
+        m_MethodName: OpenLink
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1160666988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13417,6 +13482,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160666985}
   m_CullTransparentMesh: 1
+--- !u!114 &1160666990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160666985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3c31a36fa87459a6248cce44fb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: facebook.com
 --- !u!1 &1161003280
 GameObject:
   m_ObjectHideFlags: 0
@@ -14425,6 +14503,7 @@ GameObject:
   - component: {fileID: 1214902306}
   - component: {fileID: 1214902305}
   - component: {fileID: 1214902304}
+  - component: {fileID: 1214902307}
   m_Layer: 5
   m_Name: Share
   m_TagString: Untagged
@@ -14509,6 +14588,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1214902307}
+        m_TargetAssemblyTypeName: OpenLinkButton, Assembly-CSharp
+        m_MethodName: OpenLink
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1214902305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14547,6 +14638,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214902302}
   m_CullTransparentMesh: 1
+--- !u!114 &1214902307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214902302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3c31a36fa87459a6248cce44fb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: facebook.com
 --- !u!4 &1222359178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8259043465185516232, guid: 3dd80ab4396672a4d92633459204e2e8, type: 3}
@@ -15986,7 +16090,6 @@ MonoBehaviour:
   buttonImage: {fileID: 713393215}
   iconOff: {fileID: 21300000, guid: 755a42f28ee89de40be286c2a1915ac1, type: 3}
   iconOn: {fileID: 21300000, guid: e112fb2354651f940a1cc89210daa7a0, type: 3}
-  permissionPanel: {fileID: 1578797056}
 --- !u!114 &1377958504
 MonoBehaviour:
   m_ObjectHideFlags: 0

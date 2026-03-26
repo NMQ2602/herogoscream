@@ -34,7 +34,6 @@ public class GameManager : MonoBehaviour
 
     float bestLose = 0;
     float bestWin = 0;
-    float lastDistance = 0;
 
     string loseKey;
     string winKey;
@@ -63,8 +62,6 @@ public class GameManager : MonoBehaviour
         if (levelStart == null || levelEnd == null || player == null) return;
 
         float totalDistance = levelEnd.position.x - levelStart.position.x;
-        if (totalDistance <= 0) return;
-
         float playerDistance = player.position.x - levelStart.position.x;
 
         float percent = (playerDistance / totalDistance) * 100f;
@@ -74,13 +71,6 @@ public class GameManager : MonoBehaviour
 
         if (progressText != null)
             progressText.text = Mathf.RoundToInt(percent) + "%";
-
-        float delta = playerDistance - lastDistance;
-        if (delta > 0)
-        {
-            MissionListManager.instance.AddDistance(Mathf.RoundToInt(delta));
-            lastDistance = playerDistance;
-        }
 
         if (percent >= 100)
             Win();
@@ -144,8 +134,6 @@ public class GameManager : MonoBehaviour
         if (gameEnded) return;
 
         gameEnded = true;
-
-        MissionListManager.instance.WinLevel();
 
         if (sfxSource != null && winSound != null)
             sfxSource.PlayOneShot(winSound);
