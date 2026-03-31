@@ -67,10 +67,20 @@ public class GameManager : MonoBehaviour
         float percent = (playerDistance / totalDistance) * 100f;
         percent = Mathf.Clamp(percent, 0, 100);
 
+        float deltaPercent = percent - currentPercent;
+
         currentPercent = percent;
 
         if (progressText != null)
             progressText.text = Mathf.RoundToInt(percent) + "%";
+
+        if (deltaPercent > 0)
+        {
+            int add = Mathf.FloorToInt(deltaPercent);
+
+            if (add > 0 && MissionListManager.instance != null)
+                MissionListManager.instance.AddDistance(add);
+        }
 
         if (percent >= 100)
             Win();
@@ -149,6 +159,9 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.Save();
 
         Time.timeScale = 0;
+
+        if (MissionListManager.instance != null)
+            MissionListManager.instance.WinLevel();
 
         if (winUI != null)
             winUI.SetActive(true);

@@ -41,6 +41,10 @@ public class GameManager_Endless : MonoBehaviour
         if (gameEnded) return;
 
         score += value;
+
+        if (MissionListManager.instance != null)
+            MissionListManager.instance.AddScore(value);
+
         if (score > highScore) highScore = score;
 
         UpdateScoreUI();

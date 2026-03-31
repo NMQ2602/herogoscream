@@ -60,8 +60,6 @@ public class GoogleAdsManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-
     void Start()
     {
         if (IsNoAdsEnabled())
@@ -73,16 +71,17 @@ public class GoogleAdsManager : MonoBehaviour
         MobileAds.RaiseAdEventsOnUnityMainThread = true;
         MobileAds.Initialize(initStatus =>
         {
-            LoadBannerAd();
-            LoadInterstitialAd();
+            if (!IsNoAdsEnabled())
+            {
+                LoadBannerAd();
+                LoadInterstitialAd();
+            }
             interRewardEvent += () => GiveInterReward();
 
             LoadRewardedAd();
             RewardedEndEvent += () => GiveRewarededReward();
         });
-        LoadAppOpenAd();////////////////////
-        //LoadMRECAd();
-
+        LoadAppOpenAd();
     }
 
     // Kiểm tra trạng thái No Ads
@@ -326,6 +325,8 @@ public class GoogleAdsManager : MonoBehaviour
     {
         interstitialAd.OnAdFullScreenContentClosed += () =>
         {
+            if (!IsNoAdsEnabled())
+                LoadInterstitialAd();
             Debug.Log("Interstitial Ad full screen content closed.");
             LoadInterstitialAd();
             interRewardEvent?.Invoke();
@@ -341,7 +342,6 @@ public class GoogleAdsManager : MonoBehaviour
     #region Rewareded Ads
     private void LoadRewardedAd()
     {
-        if (IsNoAdsEnabled()) return;
 
         if (_rewardedAd != null)
         {
@@ -370,8 +370,6 @@ public class GoogleAdsManager : MonoBehaviour
     public void ShowRewardedAd()
     {
         const string rewardMsg = "Rewarded ad rewarded the user. Type: {0}, amount: {1}.";
-
-        if (IsNoAdsEnabled()) return;
 
         if (_rewardedAd != null && _rewardedAd.CanShowAd())
         {
@@ -516,5 +514,17 @@ public class GoogleAdsManager : MonoBehaviour
     {
         ShowRewardedAd();
     }
+    public void DisableAllAds()
+    {
+        DestroyBannerView();
+        DestroyMREC();
 
+        if (_interstitialAd != null)
+        {
+            _interstitialAd.Destroy();
+            _interstitialAd = null;
+        }
+
+        appOpenAd = null;
+    }
 }

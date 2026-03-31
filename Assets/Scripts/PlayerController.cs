@@ -1,11 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
-#if UNITY_ANDROID
-using UnityEngine.Android;
-#endif
-
-public class MicPlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 3f;
     public float jumpForce = 7f;
@@ -34,31 +31,24 @@ public class MicPlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
 
-        RequestMicPermission();
-        StartMicrophone();
+        StartCoroutine(StartMicWithDelay());
         SetupSlider();
     }
 
-    void RequestMicPermission()
+    IEnumerator StartMicWithDelay()
     {
-#if UNITY_ANDROID
-        if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
-        {
-            Permission.RequestUserPermission(Permission.Microphone);
-        }
-#endif
-    }
+        yield return new WaitForSeconds(0.5f);
 
-    void StartMicrophone()
-    {
         if (Microphone.devices.Length > 0)
         {
             device = Microphone.devices[0];
             micClip = Microphone.Start(device, true, 10, 44100);
+
+            Debug.Log("Mic started: " + device);
         }
         else
         {
-            Debug.Log("❌ Không tìm thấy microphone");
+            Debug.Log("Không tìm thấy microphone");
         }
     }
 
@@ -112,11 +102,17 @@ public class MicPlayerController : MonoBehaviour
 
     void Jump(float loudness)
     {
+        if (!canJump) return;
+
         float jumpPower = jumpForce + loudness * 3f;
         jumpPower = Mathf.Clamp(jumpPower, jumpForce, jumpForce * 2.5f);
 
         rb.velocity = new Vector2(rb.velocity.x, jumpPower);
+
         canJump = false;
+
+        if (MissionListManager.instance != null)
+            MissionListManager.instance.AddJump(1);
     }
 
     public void ChangeSensitivity(float value)
@@ -161,7 +157,7 @@ public class MicPlayerController : MonoBehaviour
 
     float GetLoudness()
     {
-        if (micClip == null) return 0;
+        if (micClip == null || string.IsNullOrEmpty(device)) return 0;
 
         int micPosition = Microphone.GetPosition(device);
 

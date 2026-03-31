@@ -100,5 +100,6 @@ InitTestScene*.unity*
 
 # Firebase native libs
 Assets/Firebase/Plugins/x86_64/
+Assets/Firebase/Plugins/x86/
 *.so
 *.bundle

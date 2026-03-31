@@ -6,7 +6,6 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 {
     public static UnityAdsManager Instance;
 
-    [Header("Unity Ads Placement IDs")]
     public string appOpenId = "AppOpen_Android";
     public string bannerId = "Banner_Android";
     public string interId = "Interstitial_Android";
@@ -30,33 +29,39 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
         StartCoroutine(InitRoutine());
     }
 
+    bool IsNoAds()
+    {
+        return PlayerPrefs.GetInt("noads", 0) == 1;
+    }
+
     IEnumerator InitRoutine()
     {
         while (!Advertisement.isInitialized) yield return null;
 
-        LoadBanner();
-        LoadInterstitial();
+        if (!IsNoAds())
+        {
+            LoadBanner();
+            LoadInterstitial();
+        }
+
         LoadRewarded();
     }
 
-    // ======================================================
-    // APP OPEN
-    // ======================================================
     public void ShowAppOpen()
     {
+        if (IsNoAds()) return;
         Advertisement.Show(appOpenId);
     }
 
-    // ======================================================
-    // BANNER
-    // ======================================================
     public void LoadBanner()
     {
+        if (IsNoAds()) return;
         Advertisement.Banner.Load(bannerId);
     }
 
     public void ShowBanner()
     {
+        if (IsNoAds()) return;
         Advertisement.Banner.Show(bannerId);
     }
 
@@ -65,11 +70,9 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
         Advertisement.Banner.Hide();
     }
 
-    // ======================================================
-    // INTERSTITIAL
-    // ======================================================
     public void LoadInterstitial()
     {
+        if (IsNoAds()) return;
         Advertisement.Load(interId, this);
     }
 
@@ -80,12 +83,12 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 
     public void ShowInterstitial()
     {
-        Advertisement.Show(interId, this);
+        if (IsNoAds()) return;
+
+        if (interReady)
+            Advertisement.Show(interId, this);
     }
 
-    // ======================================================
-    // REWARDED
-    // ======================================================
     public void LoadRewarded()
     {
         Advertisement.Load(rewardedId, this);
@@ -98,12 +101,10 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 
     public void ShowRewarded()
     {
-        Advertisement.Show(rewardedId, this);
+        if (rewardedReady)
+            Advertisement.Show(rewardedId, this);
     }
 
-    // ======================================================
-    // CALLBACKS
-    // ======================================================
     public void OnUnityAdsAdLoaded(string placementId)
     {
         if (placementId == interId) interReady = true;
@@ -115,7 +116,9 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
         if (placementId == interId)
         {
             interReady = false;
-            LoadInterstitial();
+
+            if (!IsNoAds())
+                LoadInterstitial();
         }
 
         if (placementId == rewardedId)
@@ -129,4 +132,11 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
     public void OnUnityAdsShowFailure(string placementId, UnityAdsShowError error, string message) { }
     public void OnUnityAdsShowStart(string placementId) { }
     public void OnUnityAdsShowClick(string placementId) { }
+
+    public void DisableAllAds()
+    {
+        Advertisement.Banner.Hide();
+        StopAllCoroutines();
+        interReady = false;
+    }
 }
